@@ -69,5 +69,6 @@ while True:
         else:
             y = ny
             x = nx
+            #d
 
 print(cnt)
