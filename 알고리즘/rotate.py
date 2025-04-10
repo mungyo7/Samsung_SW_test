@@ -23,11 +23,11 @@ print()
 
 def rotate(arr, si, sj):
     narr = [x[:] for x in arr]
-    for i in range(3):
-        for j in range(3):
-            narr[si+i][sj+j]=arr[si+3-j-1][sj+i]
+    for i in range(5): # 돌리는 가로세로개수 N
+        for j in range(5):
+            narr[si+i][sj+j]=arr[si+5-j-1][sj+i] # si+N-j-1, sj+i
     return narr
 
-arr_new = rotate(arr,3,3)
+arr_new = rotate(arr,0,0) # si sj : 왼쪽 위 모서리 좌표
 for i in arr_new:
     print(i)
