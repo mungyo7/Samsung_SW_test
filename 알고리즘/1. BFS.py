@@ -11,6 +11,7 @@
 - 방문 : bool[][]
 - queue
 
+https://www.acmicpc.net/problem/1926
 6 5
 1 1 0 1 1
 0 1 1 0 0
